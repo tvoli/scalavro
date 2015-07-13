@@ -56,12 +56,12 @@ val Success(readResult) = io readJson json
 
 ## Obtaining Scalavro
 
-The `Scalavro` artifacts are available from Maven Central. The current release is `0.6.2`, built against Scala 2.10.3.
+The `Scalavro` artifacts are available from Maven Central. The current release is `0.7.0-magine`, built against Scala 2.11.1.
 
 Using SBT:
 
 ```scala
-libraryDependencies += "com.gensler" %% "scalavro" % "0.6.2"
+libraryDependencies += "com.gensler" %% "scalavro" % "0.7.0-magine"
 ```
 
 ## API Documentation
@@ -305,9 +305,9 @@ libraryDependencies += "com.gensler" %% "scalavro" % "0.6.2"
 </table>
 
 ## General Information
-- Built against Scala 2.10.2 with SBT 0.12.4
+- Built against Scala 2.11.1 with SBT 0.13.5
 - Depends upon [spray-json](https://github.com/spray/spray-json)
-- Depends upon the Apache Java implementation of Avro (Version 1.7.5)
+- Depends upon the Apache Java implementation of Avro (Version 1.7.7)
 
 ## Current Capabilities
 - Dynamic Avro schema generation from vanilla Scala types
