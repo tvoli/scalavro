@@ -130,11 +130,10 @@ object ScalavroBuild extends Build {
       </developers>
     ),
     publishTo <<= version { (v: String) =>
-      val nexus = "https://oss.sonatype.org/"
       if (v.trim.endsWith("SNAPSHOT"))
-        Some("snapshots" at nexus + "content/repositories/snapshots")
+        Some("Magine Snapshots" at "http://artifactory.tvoli.com/artifactory/libs-snapshot-local")
       else
-        Some("releases"  at nexus + "service/local/staging/deploy/maven2")
+        Some("Magine Releases" at "http://artifactory.tvoli.com/artifactory/libs-release-local")
     }
   )
 
