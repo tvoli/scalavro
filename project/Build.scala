@@ -25,7 +25,7 @@ object ScalavroBuild extends Build {
 //////////////////////////////////////////////////////////////////////////////
 
   val SPRAY_JSON_VERSION = "1.2.6"
-  val AVRO_VERSION = "1.7.6"
+  val AVRO_VERSION = "1.7.7"
   val SCALATEST_VERSION = "2.2.0"
   val REFLECTIONS_VERSION = "0.9.9-RC1"
   val TYPESAFE_CONFIG_VERSION = "1.0.2"
