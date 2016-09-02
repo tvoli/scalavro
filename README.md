@@ -56,12 +56,12 @@ val Success(readResult) = io readJson json
 
 ## Obtaining Scalavro
 
-The `Scalavro` artifacts are available from Maven Central. The current release is `0.7.0-magine`, built against Scala 2.11.1.
+The current release is `0.7.1-magine`, built against Scala 2.11.8.
 
 Using SBT:
 
 ```scala
-libraryDependencies += "com.gensler" %% "scalavro" % "0.7.0-magine"
+libraryDependencies += "com.gensler" %% "scalavro" % "0.7.1-magine"
 ```
 
 ## API Documentation
