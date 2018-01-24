@@ -14,10 +14,10 @@ object ScalavroBuild extends Build {
 
   val ORGANIZATION = "com.gensler"
   val PROJECT_NAME = "scalavro"
-  val PROJECT_VERSION = "0.7.1-magine"
+  val PROJECT_VERSION = "0.8.0-magine"
 
-  val SCALA_VERSION = "2.11.8"
-  val SCALA_XML_VERSION = "1.0.2"
+  val SCALA_VERSION = "2.12.4"
+  val SCALA_XML_VERSION = "1.0.5"
 
 
 //////////////////////////////////////////////////////////////////////////////
@@ -26,7 +26,7 @@ object ScalavroBuild extends Build {
 
   val SPRAY_JSON_VERSION = "1.3.2"
   val AVRO_VERSION = "1.7.7"
-  val SCALATEST_VERSION = "2.2.0"
+  val SCALATEST_VERSION = "3.0.1"
   val REFLECTIONS_VERSION = "0.9.9-RC1"
   val TYPESAFE_CONFIG_VERSION = "1.0.2"
   val SLF4J_VERSION   = "1.7.12"
