@@ -56,12 +56,12 @@ val Success(readResult) = io readJson json
 
 ## Obtaining Scalavro
 
-The current release is `0.7.1-magine`, built against Scala 2.11.8.
+The current release is `0.8.0-magine`, built against Scala 2.12.4
 
 Using SBT:
 
 ```scala
-libraryDependencies += "com.gensler" %% "scalavro" % "0.7.1-magine"
+libraryDependencies += "com.gensler" %% "scalavro" % "0.8.0-magine"
 ```
 
 ## API Documentation
@@ -305,7 +305,7 @@ libraryDependencies += "com.gensler" %% "scalavro" % "0.7.1-magine"
 </table>
 
 ## General Information
-- Built against Scala 2.11.1 with SBT 0.13.5
+- Built against Scala 2.12.4 with SBT 0.13.5
 - Depends upon [spray-json](https://github.com/spray/spray-json)
 - Depends upon the Apache Java implementation of Avro (Version 1.7.7)
 
